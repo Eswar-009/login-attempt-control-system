@@ -1,0 +1,8 @@
+Sample security audit output:
+
+LOGIN_FAILURE username=admin ip=192.0.2.10 failed_attempts=1
+LOGIN_FAILURE username=admin ip=192.0.2.10 failed_attempts=2
+LOGIN_FAILURE username=admin ip=192.0.2.10 failed_attempts=3
+LOGIN_FAILURE username=admin ip=192.0.2.10 failed_attempts=4
+LOGIN_FAILURE username=admin ip=192.0.2.10 failed_attempts=5
+ACCOUNT_LOCKED username=admin ip=192.0.2.10 duration_seconds=900

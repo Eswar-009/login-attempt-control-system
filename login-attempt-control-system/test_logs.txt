@@ -1,0 +1,13 @@
+=== Login Attempt Control System - Test Log ===
+
+Test: Simulated brute-force attempt loop
+Target username: admin
+Test IP: 192.0.2.10
+
+Attempt 1: Invalid credentials. Failure 1/5. Progressive delay: 1s.
+Attempt 2: Invalid credentials. Failure 2/5. Progressive delay: 2s.
+Attempt 3: Invalid credentials. Failure 3/5. Progressive delay: 4s.
+Attempt 4: Invalid credentials. Failure 4/5. Progressive delay: 8s.
+Attempt 5: Account locked for 15 minutes after 5 failed attempts.
+
+RESULT: LOCKOUT ENFORCED
